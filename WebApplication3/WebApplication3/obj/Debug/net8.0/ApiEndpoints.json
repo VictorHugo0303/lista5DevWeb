@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "WebApplication3.Controllers.AlunoController",
+    "Method": "atualizar",
+    "RelativePath": "api/aluno/AtualizarPessoa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dados",
+        "Type": "WebApplication3.Models.Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.AlunoController",
+    "Method": "Buscar",
+    "RelativePath": "api/aluno/BuscarPessoa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.AlunoController",
+    "Method": "Deletar",
+    "RelativePath": "api/aluno/DeletePessoa",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.AlunoController",
+    "Method": "BuscarEspecifica",
+    "RelativePath": "api/aluno/EspecificaPessoa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.AlunoController",
+    "Method": "Inserir",
+    "RelativePath": "api/aluno/Inserir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "WebApplication3.Models.Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
